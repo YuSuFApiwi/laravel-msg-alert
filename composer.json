@@ -1,0 +1,38 @@
+{
+    "name": "YuSuFApiwi/laravel-msg-alert",
+    
+    "description": "toastr.js for Laravel",
+    "keywords": ["msg-alert","alert","toastr", "notification", "laravel", "php"],
+    "homepage": "https://github.com/YuSuFApiwi/laravel-msg-alert",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Youssef Apiwi",
+            "email": "YoussefApiwi48@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "YuSuFApiwi\\Toastr\\": "src/"
+        },
+        "files": [
+            "src/helper.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "YuSuFApiwi\\Toastr\\ToastrServiceProvider"
+            ],
+            "aliases": {
+                "Toastr": "YuSuFApiwi\\Toastr\\Facades\\Toastr"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+    "php": ">=5.5.0",
+        "illuminate/support": ">=5.2.7",
+        "illuminate/session": ">=5.2.7"
+    }
+}
