@@ -1,7 +1,5 @@
 # Welcome in the package laravel-msg-alert
 
-# laravel-msg-alert
-
 | Laravel Version     | Is Working? |
 | ---      | ---       |
 | 8.x | Yes         |
